@@ -1,0 +1,28 @@
+{
+    "name": "laravel-extended/material",
+    "description": "laravel-extended/material",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronald Ocubillo",
+            "email": "rtocubillo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Extended\\Material\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Extended\\Material\\MaterialServiceProvider"
+            ]
+        }
+    }
+}
